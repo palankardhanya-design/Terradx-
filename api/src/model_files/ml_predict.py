@@ -78,7 +78,7 @@ def predict_plant(model,imgdata):
     loaded_model.eval()
 
     # Converting Base64 string to Image
-    image = Image.open(io.BytesIO(imgdata))
+    image = Image.open(io.BytesIO(imgdata)).convert("RGB")
     # Resizing Image
     resize = transforms.Compose([transforms.Resize((256,256))])
     image = ToTensor()(image)
