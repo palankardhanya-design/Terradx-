@@ -1,5 +1,4 @@
-#TerraDx
- 
+##  TERRADX 
 
 ## Machine Learning Model
 
