@@ -1,4 +1,4 @@
-# Plant 🌱 Disease 🐛 Detector 🔎
+#TerraDx
  
 
 ## Machine Learning Model
